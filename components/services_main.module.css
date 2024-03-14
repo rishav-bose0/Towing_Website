@@ -1,0 +1,52 @@
+.serviceList {
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /*align-content: center;*/
+    gap:1.8em;
+    text-align: left;
+
+}
+
+.serviceItem {
+    display: block;
+    position: relative;
+    object-fit: cover;
+    padding: 2em;
+    max-width: 25%;
+    height: 300px;
+    margin: auto;
+    border-radius: 20px;
+    box-shadow: 0 2px 0 rgba(0, 0, 0, 0.33);
+    overflow: hidden;
+    text-decoration: none;
+    /*border: 1px solid black;*/
+}
+
+.serviceItem:hover img{
+
+    opacity: 60%;
+}
+
+.serviceItem a {
+    text-decoration: none;
+}
+
+.textOverlay {
+    position: relative;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*text-align: center;*/
+    color: white; /* Optionally set text color */
+    z-index: 1; /* Ensure text is above the image */
+    text-shadow: 0 7px 4px rgba(0, 0, 0, 0.5);
+    opacity: 100%;
+}
+
+.textOverlay h1, .textOverlay p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.08rem;
+}
+

@@ -1,0 +1,112 @@
+.footer {
+    width: 100%;
+    height: 550px;
+    /*overflow: hidden;*/
+    margin-top: 4em;
+    object-fit: cover;
+}
+
+.imageFooter{
+    width: 100%;
+    height: 550px;
+    position: relative;
+    display: flex;
+    justify-content: flex-start; /* Align items to the end (right side) of the container */
+    align-items: center; /* Center items vertically */
+    /*text-align: right;*/
+}
+
+.textOverlay {
+    position: relative;
+    margin-top: 7em;
+
+    padding: 5em;
+    color: white; /* Optionally set text color */
+    z-index: 1; /* Ensure text is above the image */
+    text-shadow: 0 7px 4px rgba(0, 0, 0, 0.5);
+    opacity: 100%;
+    max-width: 40%;
+}
+
+.textOverlay h1, .textOverlay p {
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.08rem;
+}
+
+.textOverlay h1 {
+    font-size: 2.5em;
+}
+
+.textOverlay p{
+    font-size: 1.3em;
+}
+
+
+.form {
+    position: relative;
+    width: 40%;
+    /*align-content: end;*/
+    /*justify-content: end;*/
+    /*align-items: end;*/
+    /*display: block;*/
+    /*flex-direction: column;*/
+    /*flex-grow: 1;*/
+}
+
+.form div input {
+    margin-top: 1em;
+    padding: 0.5em;
+    height: 4em;
+    width: 100%;
+    font-size: 0.9em;
+    background-color: #e8e4e1;
+    color: black;
+    border: 2px solid lightyellow;
+    border-radius: 10px;
+}
+
+
+
+
+
+
+
+
+.footer_new {
+    background-color: #2e2e31;
+    color: #fff;
+    padding: 20px;
+    height: 300px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.leftContent,
+.rightContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.address, .hours {
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.rightContent nav {
+    display: flex;
+    flex-direction: column;
+}
+
+.rightContent nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 5px 0;
+}
+
+.socialMedia {
+    /* Styles for social media icons */
+}

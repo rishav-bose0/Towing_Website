@@ -1,0 +1,147 @@
+/*@tailwind base;*/
+/*@tailwind components;*/
+/*@tailwind utilities;*/
+
+/*.header {*/
+/*    margin: 0;*/
+/*    padding: 0;*/
+/*}*/
+
+.body, .html{
+    height: 100%;
+    margin: 0;
+}
+
+.hero {
+    position: relative;
+    height: 840px;
+    flex: 1;
+    min-height: 100vh;
+}
+
+.navbar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(180deg, #9ec6ee, #3570ab);
+    /*z-index: 2;*/
+}
+
+.logoImg {
+    position: relative;
+    width: 140px;
+    height: 70px;
+}
+
+.mid{
+    font-size: 1em;
+    max-width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    /*text-decoration: none;*/
+}
+
+.end{
+    max-width: 30%;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5em
+}
+
+.mid a, .end a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.textOverlay {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white; /* Optionally set text color */
+    z-index: 1; /* Ensure text is above the image */
+    font-size: xxx-large;
+    opacity: 75%;
+}
+
+.sectionTwo {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3em;
+    /*flex-grow: 1;*/
+    /*height: 840px;*/
+    /*padding: 10px;*/
+    /*align-content: center;*/
+    justify-content: space-evenly;
+    min-height: 100vh;
+    /*gap: 9em;*/
+
+}
+
+.sectionTwoText {
+    margin: auto;
+    padding: 5em;
+    font-family: 'Montserrat', sans-serif;
+    letter-spacing: 0.08rem;
+    font-size: 1.2em;
+    max-width: 45%;
+    /*display: flex;*/
+    /*flex-grow: 1;*/
+    /*max-width: 90%;*/
+}
+
+.sectionTwoText h1{
+   font-size: 2.4em;
+}
+
+.cargo{
+    /*margin-right: -1em;*/
+    /*margin-left: 20em;*/
+    /*max-width: 70%;*/
+    position: relative;
+    /*width: 400px;*/
+    overflow: hidden;
+}
+
+.cargo img {
+    /*margin-top: -3em;*/
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    border-top-left-radius: 700px; /* Adjust to desired radius */
+    border-bottom-right-radius: 400px;
+    border-bottom-left-radius: 100px;
+    /*border-top-right-radius: 2000px; !* Adjust to desired radius *!*/
+}
+
+
+.horizontalLine {
+    margin: 3em auto auto;
+    position: relative;
+    width: 80%;
+    height: 1px;
+    background-color: black; /* Adjust color as needed */
+    /*top: 50%;*/
+    opacity: 20%;
+
+}
+
+.servicesHeading {
+    position: relative;
+    padding: 0.1em;
+    display: block;
+    width: 14%;
+    margin: -2.6em auto auto;
+    text-align: center;
+    background-color: white; /* Ensure the text is readable */
+}
