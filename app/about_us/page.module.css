@@ -1,0 +1,34 @@
+.navbar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(0deg, #DCE8EA, #751616);
+    z-index: 2;
+}
+
+.hero {
+    position: relative;
+    /*height: 840px;*/
+    flex: 1;
+    min-height: 70vh;
+    /*object-fit: c;*/
+}
+
+.bodyContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 4em;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*align-items: center;*/
+    /*align-content: center;*/
+    /*margin: auto;*/
+     margin-left: 25%;
+}
+
+.bodyContainer p{
+    max-width: 70%;
+    letter-spacing: 1px;
+}

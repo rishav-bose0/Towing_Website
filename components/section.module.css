@@ -1,0 +1,36 @@
+.div {
+    display: flex;
+    justify-content: flex-start;
+    /*flex: ;*/
+    /*flex-direction: row;*/
+    flex-wrap: wrap;
+    gap: 3em;
+    /*flex-grow: 1;*/
+    margin-top: 0.8em;
+}
+
+.div a {
+    text-decoration: none;
+    color: black;
+}
+
+.linkContainer {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    gap: 0.6em; /* Adjust the space between the arrow and the text */
+}
+
+.section {
+    position: absolute;
+    right: 37%;
+    width: 30%;
+    height: 19%;
+    padding: 1em;
+    /*overflow: hidden;*/
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.89);
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    box-shadow: 0 8px 8px rgba(0, 0, 0, 0.1);
+}

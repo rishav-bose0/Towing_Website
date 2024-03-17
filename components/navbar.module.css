@@ -1,0 +1,42 @@
+.navbar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(180deg, #9ec6ee, #3570ab);
+    /*z-index: 2;*/
+}
+
+.logoImg {
+    position: relative;
+    width: 140px;
+    height: 70px;
+}
+
+.mid{
+    font-size: 1em;
+    max-width: 40%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-grow: 1;
+    /*text-decoration: none;*/
+}
+
+.end{
+    max-width: 30%;
+    font-size: 1em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    gap:5em
+}
+
+.mid a, .end a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}

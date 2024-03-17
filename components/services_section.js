@@ -1,8 +1,8 @@
-import classes from "./services_main.module.css";
+import classes from "./services_section.module.css";
 import servicesData from "../info_data.json"
 import Image from "next/image";
 import Link from "next/link";
-export default function ServiceMain(){
+export default function ServicesSection(){
     return (
         <>
             <div className={classes.serviceList}>

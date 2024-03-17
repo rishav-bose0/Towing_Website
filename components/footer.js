@@ -52,7 +52,7 @@ export default function Footer() {
                         <nav>
                             <Link href="/">Home</Link>
                             <Link href="/about">About Us</Link>
-                            <Link href="/services">Our Services</Link>
+                            <Link href="/components/services">Our Services</Link>
                             <Link href="/contact">Get In Touch</Link>
                         </nav>
                         <div className={classes.socialMedia}>

@@ -1,0 +1,86 @@
+[
+  {
+    "id": 1,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_0.png",
+    "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "id": 2,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_1.png",
+    "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+  },
+  {
+    "id": 3,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_2.png",
+    "review": "Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem  PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "id": 4,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_0.png",
+    "review": "There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable."
+  },
+  {
+    "id": 5,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_1.png",
+    "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "id": 6,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_2.png",
+    "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "id": 7,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_0.png",
+    "review": "it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "id": 8,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_1.png",
+    "review": "release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "id": 9,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_2.png",
+    "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  },
+  {
+    "id": 10,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_0.png",
+    "review": "versions of Lorem Ipsum."
+  },
+  {
+    "id": 11,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_2.png",
+    "review": "Lorem Ipsum is simply dummy text of the printing and typesetting industry."
+  },
+  {
+    "id": 12,
+    "name": "John Doe",
+    "position": "CEO of Aquaseen",
+    "image": "/images/face_1.png",
+    "review": "release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum."
+  }
+]
