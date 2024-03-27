@@ -65,7 +65,17 @@
     border-radius: 10px;
 }
 
-
+.subscribe input, .subscribe button{
+    /*margin-top: 1em;*/
+    /*padding: 0.5em;*/
+    height: 3em;
+    width: 45%;
+    font-size: 0.9em;
+    background-color: #e8e4e1;
+    color: black;
+    border: 2px solid lightyellow;
+    border-radius: 10px;
+}
 
 
 
@@ -75,20 +85,44 @@
 .footer_new {
     background-color: #2e2e31;
     color: #fff;
-    padding: 20px;
-    height: 300px;
+    padding: 4em;
+    height: 400px;
+}
+
+.footerInfo{
+    display: flex;
+    flex-direction: row;
+    /*margin-top: ;*/
+    /*flex-wrap: wrap;*/
+    /*align-content: space-around;*/
+    justify-content: space-between;
+}
+
+.footerInfo p{
+    max-width: 50%;
 }
 
 .container {
+    margin-top: 3em;
     display: flex;
+    gap:1em;
+    /*flex-direction: column;*/
     justify-content: space-between;
-    align-items: flex-start;
+    /*align-items: flex-start;*/
 }
 
-.leftContent,
-.rightContent {
+.content{
     display: flex;
     flex-direction: column;
+    gap:1em;
+}
+
+.Fcontent{
+    display: flex;
+    flex-direction: column;
+    max-width: 30%;
+    /*align-content: space-around;*/
+    /*align-items: ;*/
 }
 
 .address, .hours {
@@ -96,12 +130,12 @@
     margin: 10px 0;
 }
 
-.rightContent nav {
+.content nav {
     display: flex;
     flex-direction: column;
 }
 
-.rightContent nav a {
+.content nav a {
     color: #fff;
     text-decoration: none;
     margin: 5px 0;
@@ -110,3 +144,30 @@
 .socialMedia {
     /* Styles for social media icons */
 }
+
+
+/**/
+
+.contact-info {
+    background-color: #333; /* Dark background */
+    color: orange; /* Text color */
+    font-family: Arial, sans-serif; /* Font style */
+    padding: 10px; /* Padding around the content */
+    /*border-radius: 5px; !* Rounded corners *!*/
+    display: flex; /* Align width to content */
+    gap: 1em;
+}
+.contact-item {
+    display: flex; /* Align icon and text horizontally */
+    align-items: center; /* Center items vertically */
+    margin-bottom: 5px; /* Space between items */
+    gap:2em;
+    /*padding: 1em;*/
+}
+/*.contact-item i {*/
+/*    margin-right: 10px; !* Space between icon and text *!*/
+/*    color: orange; !* Icon color *!*/
+/*}*/
+/*.contact-item:last-child {*/
+/*    margin-bottom: 0;*/
+/*}*/

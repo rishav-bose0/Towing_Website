@@ -5,6 +5,10 @@ import Link from "next/link";
 export default function ServicesSection(){
     return (
         <>
+            <div className={classes.horizontalLine}></div>
+            <div className={classes.servicesHeading}>
+                <h1>Our Services</h1>
+            </div>
             <div className={classes.serviceList}>
                 {servicesData.map((service, index) => (
                     <div key={index} className={classes.serviceItem}>

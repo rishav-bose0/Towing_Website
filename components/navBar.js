@@ -44,12 +44,12 @@ export default function NavBar({className}) {
         <>
             <div className={navbarClass}>
                 <div className={classes.logoImg}>
-                    <Image src={logo} alt="Logo" fill></Image>
+                    <Link href="/"><Image src={logo} alt="Logo" fill></Image></Link>
                 </div>
                 <div className={classes.mid}>
                     <Link href="/about_us">About Us</Link>
                     <Link href="#" ref={ourServicesRef}>Our Services</Link>
-                    <Link href="#">BLOG</Link>
+                    <Link href="/blog">BLOG</Link>
                 </div>
                 <div className={classes.end}>
                     <Link href="#">

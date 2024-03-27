@@ -1,0 +1,47 @@
+.container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.testing{
+    position: absolute;
+    height: 75%;
+    width: 100%;
+}
+
+.testing img{
+    transform: skewY(8deg); /* Example angle; adjust as needed */
+    transform-origin: bottom left;
+    /*background: #3570ab;*/
+    /*z-index: 1;*/
+}
+
+/*.container {*/
+/*    position: relative;*/
+/*    width: 100%; !* Full width of the parent *!*/
+/*    height: 600px; !* Adjust to the desired height *!*/
+/*    overflow: hidden; !* Optional: to make sure the skew doesn't overflow *!*/
+/*}*/
+
+/* Styles for your image */
+/*.container > span {*/
+/*    transform: skewY(-8deg); !* Counter-skew the image *!*/
+/*    transform-origin: bottom left;*/
+/*    z-index: 0;*/
+/*}*/
+
+/* The overlay div with a blue background */
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*right: 0;*/
+    /*bottom: 0;*/
+    background: rgba(27, 158, 187, 0.7); /* Blue background with 10% opacity */
+    transform: skewY(8deg);
+    transform-origin: bottom left;
+    height: 100%;
+    width: 100%;
+    z-index: 1; /* Ensures the overlay is above the image */
+}

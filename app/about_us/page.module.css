@@ -11,8 +11,8 @@
 .hero {
     position: relative;
     /*height: 840px;*/
-    flex: 1;
-    min-height: 70vh;
+    /*flex: 1;*/
+    min-height: 100vh;
     /*object-fit: c;*/
 }
 

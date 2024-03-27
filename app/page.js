@@ -36,10 +36,6 @@ export default function HomePage() {
                     </div>
                 </div>
 
-                <div className={classes.horizontalLine}></div>
-                <div className={classes.servicesHeading}>
-                    <h1>Our Services</h1>
-                </div>
                 <ServicesSection/>
                 <VideoSection/>
                 <BlogSlider/>

@@ -1,6 +1,4 @@
-// components/BlogPost.jsx
 import styles from './BlogSlider.module.css';
-// import classes from "*.module.css";
 
 export default function BlogPost({post, isActive}) {
     return (

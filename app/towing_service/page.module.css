@@ -1,0 +1,76 @@
+.navbar {
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background: linear-gradient(0deg, #DCE8EA, #751616);
+    z-index: 2;
+}
+
+.hero {
+    position: relative;
+    /*height: 840px;*/
+    /*flex: 1;*/
+    min-height: 100vh;
+    /*object-fit: c;*/
+}
+
+.bodyContainer{
+    padding: 2em;
+}
+
+.bodyContainer p{
+    letter-spacing: 0.05em;
+}
+
+.contactUs {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 2em;
+    text-align: center;
+    align-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.Link{
+    height: 70px;
+    width: 300px;
+    background-color: black;
+}
+
+.Link a{
+    text-decoration: none;
+    color: white;
+    margin: auto;
+}
+
+
+/**/
+
+.contactBox {
+    /*height: 70px;*/
+    width: 300px;
+    display: inline-block; /* Or 'block' if you prefer */
+    padding: 10px 20px; /* Or any other padding you like */
+    /*margin: 5px; !* Adjust as needed *!*/
+    background-color: black; /* The box's color */
+    color: white; /* Text color */
+    text-decoration: none; /* Removes the underline */
+    text-align: center; /* Centers the text within the box */
+    cursor: pointer; /* Changes the cursor to signify this can be clicked */
+
+    /* Optional: Add some hover effects */
+    transition: background-color 0.3s ease;
+}
+
+.contactUs a{
+    font-size: 2em;
+}
+
+.contactBox:hover {
+    background-color: #333; /* Darker on hover */
+    text-decoration: none; /* Ensures the underline does not re-appear on hover */
+}

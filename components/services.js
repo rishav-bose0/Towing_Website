@@ -8,13 +8,13 @@ export default function AllServices() {
             <div className={classes.section}>
                 <h1>Our Services</h1>
                 <div className={classes.div}>
-                    <Link href="https://www.google.com">
+                    <Link href="/towing_service">
                         <div className={classes.linkContainer}>
                             <Image src={svgArrow} alt="img" width={20} height={20} />
                             <span>24/7 Towing Service</span>
                         </div>
                     </Link>
-                    <Link href="#">
+                    <Link href="/test">
                         <div className={classes.linkContainer}>
                             <Image src={svgArrow} alt="img" width={20} height={20} />
                             <span>Roadside Assistance</span>

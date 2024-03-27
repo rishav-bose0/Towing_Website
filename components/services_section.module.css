@@ -50,3 +50,23 @@
     letter-spacing: 0.08rem;
 }
 
+.servicesHeading {
+    position: relative;
+    padding: 0.1em;
+    display: block;
+    width: 14%;
+    margin: -2.6em auto auto;
+    text-align: center;
+    background-color: white; /* Ensure the text is readable */
+}
+
+.horizontalLine {
+    margin: 3em auto auto;
+    position: relative;
+    width: 80%;
+    height: 1px;
+    background-color: black; /* Adjust color as needed */
+    /*top: 50%;*/
+    opacity: 20%;
+
+}
